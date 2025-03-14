@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "WT的个人博客",
   description: "永远相信美好的事情即将发生",
-  base: "/docs-demo/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo:"/docs-demo/favicon.ico",
