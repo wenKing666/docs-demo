@@ -1,10 +1,26 @@
 {
-  "dependencies": {
-    "vitepress": "^1.6.3"
+  "name": "docs-demo",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "homepage": "https://github.com/wenKing666/docs-demo#readme",
+  "bugs": {
+    "url": "https://github.com/wenKing666/docs-demo/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenKing666/docs-demo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  }
+  },
+  "dependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "devDependencies": {}
 }
